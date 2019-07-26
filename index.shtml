@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basssis</title>
+  </head>
+  <body>
+    <h1>Welcome and hello to Basssis!</h1>
+    <p>Basssis is <b>Ba</b>stie's <b>s</b>mall <b>s</b>erver <b>s</b>ide <b>i</b>ncludes <b>s</b>erver.</p>
+    <p>This is a simple SSI server written in Rust. Why Rust? Because I do not need too much dependencies on my target system to build and compile. Why new server? Because I need not so much but I need some more.</p>
+    <h2>Supported features</h2>
+    <p>It supports the GET command from HTTP.</p>
+    <p>It supports the #exec command from SSi. On (Free)BSD and other systems for example you see the OS nformation with command <tt>/usr/bin/uname -a</tt>:<br/> 
+    <!--#exec cmd = "/usr/bin/uname -a" -->
+    <h2>Configuration</h2>
+    <p>The server need a program named "get_IP", with x flag on BSD. This PRG need to print the binding IP, not port, on CLI.</p>   
+    <hr/>
+    <p align="right"><small>Bastie</small></p>
+  </body>
+</html>
+

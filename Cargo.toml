@@ -1,0 +1,23 @@
+[package]
+name = "basssis"
+version = "0.1.0"
+authors = ["Sebastian Ritter"]
+description = "Bastie's small server side includes server"
+license = "BSD-2-Clause"
+repository = ""
+publish = false
+homepage = ""
+keywords = ["SSI", "OldSchool"]
+categories = ["command-line-utilities", "network-programming", "web-programming::http-server"]
+
+[dependencies]
+#log = "~0"
+#syslog = "~4"
+
+[dev-dependencies]
+
+[[bin]]
+name = "basssis"
+path = "./src/server.rs"
+
+

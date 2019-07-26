@@ -1,0 +1,16 @@
+# Dependencies documentations for Basssis
+
+[depends]
+
+[[bin]]
+Basssis=(get_IP)
+get_IP=(zsh,awk)
+
+
+
+[[src]]
+Basssis=(FreeBSD,rust,svnlite)
+
+
+
+# EOF
