@@ -1,2 +1,2 @@
 # basssis
-Basties Server Side Includes Server
+Basties small Server Side Includes Server
