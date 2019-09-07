@@ -1,0 +1,32 @@
+.Dd 7/9/19               \" DATE
+.Dt Basssis      \" Program name and manual section number
+.Sh Basssis                 \" Section Header - required - don't modify
+.Nd Bastie's small server side include server
+.Sh SYNOPSIS             \" Section Header - required - don't modify
+.Nm
+.Sh DESCRIPTION          \" Section Header - required - don't modify
+Basssis is a small HTTP server with SSI.
+.Nm
+.Pp                      \" Inserts a space
+Basssis provides:
+.Bl -tag -width -indent  \" Begins a tagged list
+.It HTTP methods               \" Each item preceded by .It macro
+GET,
+.It SSI methods
+#exec cmd,
+.El                      \" Ends the list
+.Pp
+.Sh FILES                \" File used or created by the topic of the man page
+.Bl -tag -width "/Users/joeuser/Library/really_long_file_name" -compact
+.It Pa /usr/share/bassis
+server executable
+.It Pa 'execute dir'/get_IP
+IP helper executable
+.El                      \" Ends the list
+.Sh BUGS              \" Document known, unremedied bugs
+I don't now, what do you mean?
+.Sh HISTORY           \" Document history if command behaves in a unique manner
+.Bl -tag -width -intent \"Version 9.9.9
+.It 0.1.0
+initial version
+.El
